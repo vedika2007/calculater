@@ -1,49 +1,4 @@
-"""import numpy as np
-import matplotlib.pyplot as plt
 
-# Generate x values from 0 to 2π
-x = np.linspace(0, 2 * np.pi, 100)
-
-# Compute sine of x
-y = np.sin(x)
-
-# Plot the sine wave
-plt.plot(x, y, label='Sine Wave', color='blue', linestyle='--')
-
-# Add labels and title
-plt.xlabel('Angle [radians]')
-plt.ylabel('sin(x)')
-plt.title('Sine Wave using NumPy and Matplotlib')
-
-# Add a legend
-plt.legend()
-
-# Show the grid
-plt.grid(True)
-
-# Display the plot
-plt.show()"""
-
-'''import numpy as np
-import matplotlib.pyplot as plt
-
-# Create an array of numbers from 1 to 10
-x = np.arange(1, 11)
-
-# Calculate squares of those numbers
-y = np.square(x)
-
-# Plot the graph
-plt.plot(x, y, color='green', marker='o', linestyle='-')
-
-# Add labels and title
-plt.xlabel('Number')
-plt.ylabel('Square of Number')
-plt.title('Square Numbers using NumPy and Matplotlib')
-
-# Show the graph
-plt.grid(True)
-plt.show()'''
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,6 +50,7 @@ plt.xlabel('x values (1 to 10)')
 plt.ylabel('Result')
 plt.grid(True)
 plt.show()
+
 
 
 
